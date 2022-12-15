@@ -1,0 +1,46 @@
+TodoList Application
+
+Smart Contract
+    Declare state variable taskCount (public)
+    Declare state variable struct Task
+    Declare a mapping type to map Task to tasks (public)
+
+    2 events: TaskCreated & TaskCompleted
+
+    constructor function to initialise with one task
+
+    createTask function
+        takes arg taskname
+        update taskcount as task being created
+        create task
+        emit event TaskCreated
+
+    toggleCompleted function
+        takes arg the taskID to be updated
+        change task status: completed to uncompleted & uncompleted to completed
+        emit event notification TaskCompleted
+
+Ganache, Nodejs, Truffle, Metamask set up
+Ganache running on port 7545
+truffle init to create base files
+
+Files created (uploaded)
+    package.json
+    truffle-config.js
+
+npm install to install dependencies
+
+Smart contract code files (uploaded)
+    TodoList.sol
+    2_deploy_contracts.js
+
+To check if contract successfully migrated & deployed:
+    truffle console
+    todolst = await TodoList.deployed()
+    todolst.address
+
+Smart contract tested on Remix
+
+With Ganache running on vm, 
+    truffle compile
+    truffle migrate
