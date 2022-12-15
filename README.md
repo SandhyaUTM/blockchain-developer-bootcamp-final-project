@@ -1,8 +1,6 @@
 # blockchain-developer-bootcamp-final-project
 
-Crowdfunding Application
+Todo List Application
 
-Register & Login
-View Projects
-Create Project/Edit/Delete
-Fund Project
+Create task
+Change status of task (complete/uncompleted)
