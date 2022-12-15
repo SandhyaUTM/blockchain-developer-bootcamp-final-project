@@ -1,0 +1,16 @@
+lite-server used
+
+Files created (uploaded)
+  bs-config.json  
+  
+created directory src
+in src 2 files created (uploaded)
+  index.html
+  app.js
+  
+Start server
+  npm run dev
+  
+ Login to metamask
+ Import ganache account
+ 
